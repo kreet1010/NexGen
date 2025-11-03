@@ -8,6 +8,8 @@
     text-align: center;
     height:60vh;
     padding-top: 5vh;
+    
+    font-style: italic;
 
 }
 
@@ -24,6 +26,7 @@
 }
 .orangetext{
     color: #f26522;
+    font-style: italic;
 }
 .carousel1 button{
     color: #f26522;
