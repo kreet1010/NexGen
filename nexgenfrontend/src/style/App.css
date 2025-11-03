@@ -1,0 +1,38 @@
+/* Global Styling */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Reusable Classes */
+  .section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0 20px;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,123 @@
+.carousel1{
+    margin:0;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgb(60,60,60);
+    padding-left: 2vh;
+    text-align: center;
+    height:60vh;
+    padding-top: 5vh;
+
+}
+
+.carousel1 p{
+    text-align: center;
+    text-rendering: geometricPrecision;
+}
+
+.carousel1 h2{
+    margin: 0;
+}
+.carousel1 h1{
+    margin: 0;
+}
+.orangetext{
+    color: #f26522;
+}
+.carousel1 button{
+    color: #f26522;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 12rem;
+    height:3rem;
+    width:9rem;
+    transition: 0.2s ease;
+}
+
+.carousel1 button:hover{
+    background-color: #f26522;
+    color: white;
+    width:9.5rem;
+}
+
+.subsForm{
+    background-color: white;
+    padding: 2rem 2rem;
+
+}
+.embla {
+    max-width: 100%;
+    margin: 0;
+    padding: 5vh;
+    
+    --slide-height: 75vh;
+    --slide-spacing: 1rem;
+    --slide-size: 35%;
+  }
+  .embla__viewport {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+    
+  }
+  .embla__slide {
+    transform: translate3d(0, 0, 0);
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+}
+  .embla__slide__number {
+    box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+    border-radius: 1.8rem;
+    font-size: 4rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--slide-height);
+    user-select: none;
+  }
+  .Homeimages {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image fills slide without distortion */
+    object-position: center;
+    display: block;
+  }
+
+  .home{
+    background-color: rgb(60,60,60);
+  }
+  
+  .scroller-inner{
+    display: inline-flex;
+    gap:2rem;
+    animation: scroll 15s linear infinite;
+  }
+
+  .scroller-item{
+    font-size: 1rem;
+    color: #f26522;
+    text-transform: uppercase;
+    display:flex;
+    align-items:center;
+    gap:5rem; 
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
