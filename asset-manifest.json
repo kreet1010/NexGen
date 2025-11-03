@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/NexGen/static/css/main.5e1d38bc.css",
+    "main.js": "/NexGen/static/js/main.36584bdd.js",
+    "static/media/CarouselHome1.png": "/NexGen/static/media/CarouselHome1.e654d08f88dd8130a220.png",
+    "static/media/CarouselHome5.png": "/NexGen/static/media/CarouselHome5.c4ba09dae9f3d4181f4e.png",
+    "static/media/CarouselHome2.png": "/NexGen/static/media/CarouselHome2.dc7ad327fadf1a385fd0.png",
+    "static/media/CarouselHome4.png": "/NexGen/static/media/CarouselHome4.7ccd3774fb464afc1b8f.png",
+    "static/media/CarouselHome3.png": "/NexGen/static/media/CarouselHome3.a6ad06d618f983e39020.png",
+    "static/media/LOGO-removebg-preview.png": "/NexGen/static/media/LOGO-removebg-preview.c54aa431d83f074de4be.png",
+    "index.html": "/NexGen/index.html",
+    "main.5e1d38bc.css.map": "/NexGen/static/css/main.5e1d38bc.css.map",
+    "main.36584bdd.js.map": "/NexGen/static/js/main.36584bdd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e1d38bc.css",
+    "static/js/main.36584bdd.js"
+  ]
+}
