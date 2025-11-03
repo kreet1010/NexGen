@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../style/Home.css";
+import "../style/SubscriptionForm.css";
 
 const SubscriptionForm = () => {
   const [email, setEmail] = useState("");
@@ -12,6 +12,8 @@ const SubscriptionForm = () => {
 
   return (
     <form className="subscription-form" onSubmit={handleSubmit}>
+      <div className="form-description">Email</div>
+      <div className="inputfeed">
       <input
         type="email"
         placeholder="Enter your email"
@@ -20,6 +22,7 @@ const SubscriptionForm = () => {
         required
       />
       <button type="submit">Subscribe</button>
+      </div>
     </form>
   );
 };

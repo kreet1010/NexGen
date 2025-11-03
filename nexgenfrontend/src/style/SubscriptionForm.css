@@ -1,0 +1,47 @@
+
+.subscription-form input{
+    width:200px;
+    border-radius: 20rem;
+    border-color: black;
+    padding: 1rem;
+    border-left: 2rem 2rem solid;
+}
+
+.subscription-form{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.form-description{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.2rem;
+    padding-left: 2vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
+.inputfeed button{
+    margin-left: 5vw;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 12rem;
+    height:3rem;
+    width:9rem;
+    transition: 0.2s ease;
+}
+
+.inputfeed button:hover{
+    background-color: #f26522;
+    color: white;
+    width:9.5rem;
+}

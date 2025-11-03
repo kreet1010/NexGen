@@ -13,7 +13,6 @@ import img4 from"../assets/CarouselHome4.png";
 import img5 from"../assets/CarouselHome5.png";
 
 const OPTIONS = { loop: true }
-const SLIDE_COUNT = 5
 const SLIDES1 = [img1,img3,img5,img2,img4]
 const SLIDES2 = [<HTMLContent1/>,<HTMLContent2/>]
 const Home = () => {
@@ -29,9 +28,12 @@ const Home = () => {
         </div>
       </div>
       <div className="scroller">
-        <div className="scroller-inner" data-content="LUND LUND LUND">
+        <div className="scroller-inner" data-content="">
           <div className="scroller-item">⚠️Webpage Under Construction⚠️</div>
           <div className="scroller-item">⚠️Webpage Under Construction⚠️</div> 
+          <div className="scroller-item">⚠️Webpage Under Construction⚠️</div>
+          <div className="scroller-item">⚠️Webpage Under Construction⚠️</div>
+          <div className="scroller-item">⚠️Webpage Under Construction⚠️</div>
           <div className="scroller-item">⚠️Webpage Under Construction⚠️</div>
         </div>
       </div>
@@ -40,7 +42,13 @@ const Home = () => {
       </div>
       
       <div className="subsForm">
-      <SubscriptionForm />
+        <div className="subsDescription">
+          <h2>Stay Connected with Excellence.</h2>
+          <p>
+From international training opportunities to elite competitions — be the first to hear about every NextGen milestone and event.
+Join our mailing list and grow with India’s most promising tennis movement</p>
+        </div>
+        <div className="subsinput"><SubscriptionForm /></div>  
       </div>
       
     </div>

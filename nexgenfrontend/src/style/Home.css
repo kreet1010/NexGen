@@ -52,7 +52,10 @@
 .subsForm{
     background-color: white;
     padding: 2rem 2rem;
-
+    display: flex;
+    gap:5vw;
+    align-items: center;
+    justify-content: center;
 }
 .embla {
     max-width: 100%;
@@ -98,9 +101,12 @@
   }
 
   .home{
-    background-color: rgb(60,60,60);
+    background: linear-gradient(#3c3c3c,#3c3c3c,#3c3c3c,white,white);
   }
   
+  .scroller{
+    background-color: #f26522;
+  }
   .scroller-inner{
     display: inline-flex;
     gap:2rem;
@@ -109,11 +115,30 @@
 
   .scroller-item{
     font-size: 1rem;
-    color: #f26522;
+    color: white;
     text-transform: uppercase;
     display:flex;
     align-items:center;
     gap:5rem; 
+  }
+
+  .subsDescription{
+    font-family: "Oswald", sans-serif;
+    max-width: 50vw;
+  }
+
+  .subsDescription h2{
+    font-style: italic;
+    font-size: 2rem;
+  }
+
+  .subsDescription p{
+    font-size:1.5rem;
+  }
+  .subsinput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   @keyframes scroll {
